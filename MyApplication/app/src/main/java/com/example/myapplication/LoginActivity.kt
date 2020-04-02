@@ -49,7 +49,7 @@ class LoginActivity : AppCompatActivity() {
                     } else {
                         Toast.makeText(this, "sign in successfully!", Toast.LENGTH_LONG).show()
                         Log.d(TAG, "Sign in successfully")
-                        startActivity(Intent(this@LoginActivity, ResultActivity::class.java))
+                        startActivity(Intent(this@LoginActivity,ResultActivity::class.java))
                         finish()
                     }
                 }
